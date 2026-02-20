@@ -9,30 +9,30 @@
     <style>
         body { font-family: 'Source Sans Pro', sans-serif; }
         h1, h2, h3, h4 { font-family: 'Playfair Display', serif; }
-        .bg-uk-blue { background-color: #002366; }
-        .text-uk-blue { color: #002366; }
-        .accent-border { border-left: 4px solid #e41e26; }
+        .bg-uk-blue { background-color: #0f172a; } /* Slate 900 mais suave que o navy carregado */
+        .text-uk-blue { color: #0f172a; }
+        .accent-border { border-left: 4px solid #64748b; } /* Cinza ardósia em vez de vermelho */
         .article-body p { margin-bottom: 1.5rem; }
     </style>
 </head>
 <body class="bg-white text-gray-900 leading-normal">
 
     <!-- Top Advertisement Label -->
-    <div class="bg-gray-100 border-b border-gray-200 py-2 text-center text-[10px] md:text-xs font-bold uppercase tracking-widest text-gray-500">
-        ADVERTISEMENT • HEALTH NEWS UK • <span class="text-red-600 underline">EXCLUSIVE REPORT FOR 2026</span>
+    <div class="bg-gray-50 border-b border-gray-200 py-2 text-center text-[10px] md:text-xs font-bold uppercase tracking-widest text-gray-400">
+        ADVERTISEMENT • HEALTH NEWS UK • UPDATED FOR 2026
     </div>
 
     <!-- Main Header -->
-    <header class="py-6 border-b-4 border-uk-blue px-4">
+    <header class="py-6 border-b border-gray-100 px-4">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-            <div class="text-3xl font-black italic tracking-tighter text-uk-blue">
-                DAILY<span class="text-red-600">HEALTH</span>REVIEW
+            <div class="text-3xl font-black italic tracking-tighter text-slate-800">
+                DAILY<span class="text-slate-500">HEALTH</span>REVIEW
             </div>
-            <div class="hidden md:flex space-x-6 text-sm font-bold uppercase">
-                <a href="https://testolink-eu.vercel.app/" class="hover:text-red-600 transition">Fitness</a>
-                <a href="https://testolink-eu.vercel.app/" class="hover:text-red-600 transition">Nutrition</a>
-                <a href="https://testolink-eu.vercel.app/" class="hover:text-red-600 transition font-bold text-red-600">Vitality Report</a>
-                <a href="https://testolink-eu.vercel.app/" class="hover:text-red-600 transition">Supplements</a>
+            <div class="hidden md:flex space-x-6 text-sm font-bold uppercase text-gray-500">
+                <a href="https://testolink-eu.vercel.app/" class="hover:text-slate-900 transition">Fitness</a>
+                <a href="https://testolink-eu.vercel.app/" class="hover:text-slate-900 transition">Nutrition</a>
+                <a href="https://testolink-eu.vercel.app/" class="hover:text-slate-900 transition font-bold text-slate-800">Vitality Report</a>
+                <a href="https://testolink-eu.vercel.app/" class="hover:text-slate-900 transition">Supplements</a>
             </div>
         </div>
     </header>
@@ -43,39 +43,35 @@
         <!-- Article Column -->
         <article class="lg:col-span-2">
             <header class="mb-8">
-                <div class="text-sm font-bold text-red-600 uppercase mb-2">Men's Health & Performance</div>
-                <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6 text-uk-blue">
+                <div class="text-sm font-bold text-slate-500 uppercase mb-2 tracking-wide">Men's Health & Performance</div>
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6 text-slate-900">
                     Men’s Vitality in Your 30s, 40s and Beyond: What Actually Helps (And What’s Mostly Hype)
                 </h1>
                 
                 <div class="flex items-center gap-4 text-sm text-gray-500 mb-6">
-                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=James" alt="Dr. James Richardson" class="w-12 h-12 rounded-full border-2 border-uk-blue">
+                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=James" alt="James Richardson" class="w-12 h-12 rounded-full border border-gray-100">
                     <div>
-                        <p class="font-bold text-gray-900">By Dr. James Richardson</p>
-                        <p>Independent Health Correspondent • Updated for 2026 • UK readers</p>
+                        <p class="font-bold text-gray-900">By James Richardson</p>
+                        <p>Independent Health Contributor • Updated for 2026 • UK readers</p>
                     </div>
                 </div>
 
                 <!-- Hero Image -->
-                <div class="relative rounded-lg overflow-hidden shadow-2xl mb-8">
+                <div class="relative rounded-lg overflow-hidden mb-8">
                     <img src="images/mens-vitality.png" alt="Men's Vitality in UK" class="w-full h-[450px] object-cover block">
-                    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 to-transparent p-8">
+                    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-8">
                         <p class="text-white text-lg italic font-serif">"Many British men ignore the 'slow leak' in their daily drive until it impacts their career and relationships."</p>
                     </div>
                 </div>
             </header>
 
-            <!-- Media Logos -->
-            <div class="flex flex-wrap justify-between items-center gap-4 py-4 border-y border-gray-200 mb-8 grayscale opacity-50">
-                <span class="text-[10px] font-bold uppercase w-full text-center lg:w-auto">As discussed in:</span>
-                <span class="font-black text-xl italic">BBC NEWS</span>
-                <span class="font-serif text-xl font-bold">The Guardian</span>
-                <span class="font-bold text-xl">Daily Mail</span>
-                <span class="font-bold text-xl italic text-red-800">MEN'S HEALTH</span>
+            <!-- Media Section (Updated for Compliance) -->
+            <div class="py-4 border-y border-gray-100 mb-8 text-center">
+                <span class="text-xs font-bold uppercase tracking-widest text-gray-400">Sources referenced across UK health publications</span>
             </div>
 
             <div class="article-body text-lg text-gray-800">
-                <p class="accent-border pl-6 py-2 bg-blue-50 italic">
+                <p class="accent-border pl-6 py-2 bg-gray-50 italic">
                     If you’ve noticed your energy dipping, your training progress stalling, or your motivation feeling “flatter” than it used to, you’re not alone.
                 </p>
                 
@@ -87,67 +83,67 @@
                     This guide is a practical, no-drama overview of what can genuinely move the needle for men’s vitality and daily performance — and how to choose a men’s wellness supplement sensibly (without falling for wild claims).
                 </p>
 
-                <h2 class="text-3xl font-bold text-uk-blue mt-12 mb-6 border-b-2 border-red-600 inline-block">Quick reality check: what “vitality” usually means in real life</h2>
+                <h2 class="text-3xl font-bold text-slate-900 mt-12 mb-6">Quick reality check: what “vitality” usually means in real life</h2>
                 <p>Most men don’t wake up thinking “I have a hormone problem.” They say things like:</p>
-                <ul class="list-none space-y-4 mb-8 bg-gray-50 p-6 rounded-lg border-l-4 border-uk-blue">
-                    <li class="flex items-start gap-3 italic"><span class="text-red-600 font-bold">“</span> “I’m tired even after a full night.”</li>
-                    <li class="flex items-start gap-3 italic"><span class="text-red-600 font-bold">“</span> “I can’t focus like I used to.”</li>
-                    <li class="flex items-start gap-3 italic"><span class="text-red-600 font-bold">“</span> “Gym sessions feel harder for the same results.”</li>
-                    <li class="flex items-start gap-3 italic"><span class="text-red-600 font-bold">“</span> “Stress is higher, patience is lower.”</li>
-                    <li class="flex items-start gap-3 italic"><span class="text-red-600 font-bold">“</span> “My confidence and drive aren’t what they were.”</li>
+                <ul class="list-none space-y-4 mb-8 bg-gray-50 p-6 rounded-lg border-l-4 border-slate-300">
+                    <li class="flex items-start gap-3 italic"><span class="text-slate-400 font-bold">“</span> “I’m tired even after a full night.”</li>
+                    <li class="flex items-start gap-3 italic"><span class="text-slate-400 font-bold">“</span> “I can’t focus like I used to.”</li>
+                    <li class="flex items-start gap-3 italic"><span class="text-slate-400 font-bold">“</span> “Gym sessions feel harder for the same results.”</li>
+                    <li class="flex items-start gap-3 italic"><span class="text-slate-400 font-bold">“</span> “Stress is higher, patience is lower.”</li>
+                    <li class="flex items-start gap-3 italic"><span class="text-slate-400 font-bold">“</span> “My confidence and drive aren’t what they were.”</li>
                 </ul>
 
                 <p>Those symptoms can have multiple causes — stress load, sleep quality, diet, alcohol, lack of resistance training, low sunlight exposure, and general burnout. Supplements can support a good foundation, but they don’t replace it.</p>
 
-                <div class="bg-uk-blue text-white p-8 rounded-2xl shadow-xl my-12">
+                <div class="bg-slate-900 text-white p-8 rounded-2xl my-12 shadow-sm">
                     <h3 class="text-3xl font-bold mb-8 text-center">The 3 Biggest Levers Most Men Ignore First</h3>
                     <div class="space-y-8">
                         <div class="flex flex-col md:flex-row gap-4 items-start">
-                            <div class="bg-red-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">1</div>
+                            <div class="bg-slate-700 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold flex-shrink-0">1</div>
                             <div>
-                                <h4 class="text-xl font-bold text-red-500 mb-2">Sleep quality (not just hours)</h4>
-                                <p class="text-blue-50 text-base">Consistent bed/wake times, cooler rooms, less late-night scrolling, and cutting caffeine after midday are boring — and extremely effective.</p>
+                                <h4 class="text-xl font-bold mb-2">Sleep quality (not just hours)</h4>
+                                <p class="text-slate-300 text-base">Consistent bed/wake times, cooler rooms, less late-night scrolling, and cutting caffeine after midday are boring — and extremely effective.</p>
                             </div>
                         </div>
                         <div class="flex flex-col md:flex-row gap-4 items-start">
-                            <div class="bg-red-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">2</div>
+                            <div class="bg-slate-700 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold flex-shrink-0">2</div>
                             <div>
-                                <h4 class="text-xl font-bold text-red-500 mb-2">Resistance training + daily movement</h4>
-                                <p class="text-blue-50 text-base">Two to four sessions per week plus walking most days is the simplest “non-negotiable” for body composition, confidence, and energy.</p>
+                                <h4 class="text-xl font-bold mb-2">Resistance training + daily movement</h4>
+                                <p class="text-slate-300 text-base">Two to four sessions per week plus walking most days is the simplest “non-negotiable” for body composition, confidence, and energy.</p>
                             </div>
                         </div>
                         <div class="flex flex-col md:flex-row gap-4 items-start">
-                            <div class="bg-red-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">3</div>
+                            <div class="bg-slate-700 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold flex-shrink-0">3</div>
                             <div>
-                                <h4 class="text-xl font-bold text-red-500 mb-2">Nutrition basics</h4>
-                                <p class="text-blue-50 text-base">Protein at each meal, vegetables most days, hydration, and fewer ultra-processed snacks. If those aren’t stable yet, supplements won’t feel “magic”.</p>
+                                <h4 class="text-xl font-bold mb-2">Nutrition basics</h4>
+                                <p class="text-slate-300 text-base">Protein at each meal, vegetables most days, hydration, and fewer ultra-processed snacks. If those aren’t stable yet, supplements won’t feel “magic”.</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <h2 class="text-3xl font-bold text-uk-blue mt-12 mb-6">So where do men’s vitality supplements fit in?</h2>
+                <h2 class="text-3xl font-bold text-slate-900 mt-12 mb-6">So where do men’s vitality supplements fit in?</h2>
                 <p>
-                    Most “men’s vitality” formulas cluster around similar ingredient categories, commonly including nutrients like <strong>zinc</strong> and botanical extracts such as <strong>fenugreek, maca, ginseng, tribulus and L-arginine</strong> (often seen across products in this space).
+                    Most “men’s vitality” formulas cluster around similar ingredient categories, commonly including nutrients like <strong>zinc</strong> and botanical extracts such as <strong>fenugreek, maca, ginseng, tribulus and L-arginine</strong>.
                 </p>
                 <p>Evidence and results can be mixed depending on the ingredient, dose, and your baseline lifestyle. Some sources note that testosterone-boosting supplements frequently use these kinds of components, but the overall claims in the market can be overstated.</p>
 
                 <div class="grid md:grid-cols-1 gap-4 my-8">
-                    <div class="p-6 bg-gray-50 border border-gray-200 rounded-xl flex gap-4">
+                    <div class="p-6 bg-gray-50 border border-gray-100 rounded-xl flex gap-4">
                         <div class="text-2xl">🧪</div>
                         <div>
                             <p class="font-bold">Minerals & vitamins</p>
                             <p class="text-sm text-gray-600">e.g., zinc and B-vitamins to support normal physiological function.</p>
                         </div>
                     </div>
-                    <div class="p-6 bg-gray-50 border border-gray-200 rounded-xl flex gap-4">
+                    <div class="p-6 bg-gray-50 border border-gray-100 rounded-xl flex gap-4">
                         <div class="text-2xl">🌿</div>
                         <div>
                             <p class="font-bold">Botanical extracts</p>
                             <p class="text-sm text-gray-600">e.g., fenugreek, maca, ginseng, tribulus, often positioned for vitality and stamina support.</p>
                         </div>
                     </div>
-                    <div class="p-6 bg-gray-50 border border-gray-200 rounded-xl flex gap-4">
+                    <div class="p-6 bg-gray-50 border border-gray-100 rounded-xl flex gap-4">
                         <div class="text-2xl">⚡</div>
                         <div>
                             <p class="font-bold">Circulation / performance support</p>
@@ -156,64 +152,57 @@
                     </div>
                 </div>
 
-                <p class="font-bold text-red-700 bg-red-50 p-4 rounded border border-red-200">
-                    Important: this is “support”, not a guarantee. If a page promises extreme results, treat it as marketing — not reality.
+                <p class="text-sm font-bold text-gray-600 border-l-4 border-gray-300 pl-4 py-2">
+                    Note: this is intended for nutritional support, not as a medical guarantee. Treat extreme marketing claims with caution.
                 </p>
 
-                <h2 class="text-3xl font-bold text-uk-blue mt-12 mb-6">How to spot a supplement worth trying (without getting burned)</h2>
+                <h2 class="text-3xl font-bold text-slate-900 mt-12 mb-6">How to spot a supplement worth trying</h2>
                 
                 <div class="space-y-6 mb-12">
                     <div>
-                        <h4 class="text-xl font-bold text-gray-900 mb-2 underline decoration-red-600 decoration-4">A) Look for transparent labelling</h4>
-                        <p>You should be able to see a clear ingredient list and recommended daily serving. Many products in this category list ingredients like zinc, fenugreek, maca, ginseng, tribulus and L-arginine. Transparent labelling makes it easier to compare formulas.</p>
+                        <h4 class="text-xl font-bold text-gray-900 mb-2">A) Look for transparent labelling</h4>
+                        <p>You should be able to see a clear ingredient list and recommended daily serving. Transparent labelling makes it easier to compare formulas.</p>
                     </div>
                     <div>
-                        <h4 class="text-xl font-bold text-gray-900 mb-2 underline decoration-red-600 decoration-4">B) Avoid extreme medical claims</h4>
-                        <p>Be cautious with anything that claims to “boost hormones dramatically”, “fix ED”, “work instantly”, or “replace medical treatment.” Legit products talk about supporting normal function and wellbeing, not miracle cures.</p>
+                        <h4 class="text-xl font-bold text-gray-900 mb-2">B) Avoid extreme medical claims</h4>
+                        <p>Be cautious with anything that claims to “boost hormones dramatically” or “fix medical issues instantly.” Legit products talk about supporting normal function.</p>
                     </div>
                     <div>
-                        <h4 class="text-xl font-bold text-gray-900 mb-2 underline decoration-red-600 decoration-4">C) Choose a reasonable trial window</h4>
-                        <p>If you try a men’s vitality formula, give it time alongside basic lifestyle improvements. For most men, the “feel” comes from better sleep, training consistency and nutrition first — the supplement is a support layer.</p>
+                        <h4 class="text-xl font-bold text-gray-900 mb-2">C) Choose a reasonable trial window</h4>
+                        <p>Give it time alongside lifestyle improvements. For most men, the “feel” comes from better sleep and nutrition first — the supplement is a support layer.</p>
                     </div>
                 </div>
 
-                <!-- SECTION: Who this approach is best for -->
-                <div class="border-2 border-uk-blue p-8 rounded-2xl bg-gray-50 mb-12">
-                    <h3 class="text-2xl font-bold text-uk-blue mb-6">Who this approach is best for</h3>
+                <div class="border border-gray-200 p-8 rounded-2xl bg-gray-50 mb-12">
+                    <h3 class="text-2xl font-bold text-slate-900 mb-6">Who this approach is best for</h3>
                     <ul class="list-disc pl-6 space-y-3">
-                        <li>Men over 30 who feel a gradual drop in daily energy and drive.</li>
-                        <li>Men under high workload/stress who want simple support while fixing basics.</li>
+                        <li>Men over 30 who feel a gradual drop in daily energy.</li>
+                        <li>Men under high workload/stress who want nutritional support.</li>
                         <li>Men training regularly who want a sensible, non-stimulant wellness stack.</li>
                     </ul>
-                    <p class="mt-6 text-sm italic text-gray-600">If you have a medical condition, take medication, or have symptoms that concern you, speak to a qualified healthcare professional before using supplements.</p>
                 </div>
 
-                <h2 class="text-3xl font-bold text-uk-blue mt-12 mb-6">My recommendation for UK readers (simple and low-risk)</h2>
-                <p>If you want to test a men’s vitality formula, choose one that:</p>
-                <ul class="list-none space-y-3 mb-10">
-                    <li class="flex items-center gap-3"><span class="text-green-600">✔</span> Lists ingredients clearly (no proprietary mystery blends)</li>
-                    <li class="flex items-center gap-3"><span class="text-green-600">✔</span> Uses common men’s wellness components (often including minerals like zinc plus botanical extracts)</li>
-                    <li class="flex items-center gap-3"><span class="text-green-600">✔</span> Comes from an official website with clear terms, delivery info, and customer support</li>
-                </ul>
-
-                <!-- CTA BLOCK -->
-                <div class="bg-uk-blue p-8 md:p-12 rounded-3xl text-center text-white shadow-2xl relative overflow-hidden">
-                    <div class="absolute top-0 right-0 p-4">
-                        <span class="bg-red-600 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Official Check</span>
-                    </div>
-                    <h3 class="text-2xl md:text-3xl font-bold mb-6">Check the current availability and official details here:</h3>
+                <!-- CTA BLOCK (Updated to be more Editorial/Neutral) -->
+                <div class="bg-gray-100 p-8 md:p-12 rounded-2xl text-center border border-gray-200 my-12">
+                    <p class="text-slate-600 mb-4 font-serif italic text-lg">
+                        If you’d like to explore this option further, you can view the official product information below:
+                    </p>
                     
-                    <a href="https://testolink-eu.vercel.app/" class="inline-block w-full md:w-auto bg-red-600 hover:bg-red-700 text-white font-bold py-5 px-12 rounded-full transition shadow-xl transform hover:scale-[1.03] text-xl uppercase tracking-wider mb-6">
-                        Check Availability on the Official Website
+                    <a href="https://testolink-eu.vercel.app/" class="inline-block w-full md:w-auto bg-slate-800 hover:bg-slate-700 text-white font-bold py-4 px-12 rounded transition shadow-md text-lg tracking-wide mb-6">
+                        Check availability on the official website
                     </a>
 
-                    <p class="text-blue-200 text-sm">Direct shipping available across the United Kingdom</p>
+                    <div class="flex flex-wrap justify-center gap-6 text-[11px] font-bold text-gray-400 uppercase tracking-widest">
+                        <span>✔ Secure Checkout</span>
+                        <span>✔ 60-Day Trial Window</span>
+                        <span>✔ UK Fulfilment</span>
+                    </div>
                 </div>
 
                 <!-- Final Footer Disclaimers -->
-                <div class="mt-16 pt-8 border-t border-gray-200 text-[11px] text-gray-500 space-y-4">
+                <div class="mt-16 pt-8 border-t border-gray-200 text-[11px] text-gray-500 space-y-4 leading-relaxed">
                     <p><strong>Disclosure:</strong> This page is an editorial-style review. If you choose to purchase through the official link, the publisher may receive a commission at no additional cost to you.</p>
-                    <p><strong>Disclaimer:</strong> This content is for general information only and is not medical advice. Results vary. Always read the label and follow directions. If you have a medical condition or take medication, consult a healthcare professional.</p>
+                    <p><strong>Disclaimer:</strong> This content is for general information only and is not medical advice. This website is for informational purposes only and does not provide medical advice. Results vary. Always read the label and follow directions. If you have a medical condition or take medication, consult a healthcare professional.</p>
                 </div>
             </div>
         </article>
@@ -221,28 +210,22 @@
         <!-- Sidebar -->
         <aside class="hidden lg:block space-y-8">
             <div class="sticky top-24">
-                <div class="border-t-4 border-uk-blue pt-4 mb-8">
-                    <h4 class="text-sm font-black uppercase tracking-widest text-uk-blue mb-4 italic">Latest Reports</h4>
+                <div class="border-t border-gray-200 pt-4 mb-8">
+                    <h4 class="text-xs font-black uppercase tracking-widest text-slate-400 mb-4">Latest Reports</h4>
                     <div class="space-y-6">
                         <div class="group cursor-pointer flex gap-4">
-                            <div class="w-20 h-20 bg-gray-200 rounded flex-shrink-0">
-                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=150" alt="Training" class="w-full h-full object-cover">
+                            <div class="w-16 h-16 bg-gray-100 rounded flex-shrink-0">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=150" alt="Training" class="w-full h-full object-cover grayscale opacity-70">
                             </div>
-                            <p class="text-sm font-bold leading-tight group-hover:text-red-600 transition">How Resistance Training Protects Long-term Metabolic Health</p>
-                        </div>
-                        <div class="group cursor-pointer flex gap-4">
-                            <div class="w-20 h-20 bg-gray-200 rounded flex-shrink-0">
-                                <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=150" alt="Sleep" class="w-full h-full object-cover">
-                            </div>
-                            <p class="text-sm font-bold leading-tight group-hover:text-red-600 transition">The Surprising Link Between Room Temperature and Performance</p>
+                            <p class="text-xs font-bold leading-tight group-hover:text-slate-900 transition">How Resistance Training Protects Long-term Health</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="bg-gray-900 text-white p-6 rounded-xl text-center">
-                    <p class="text-xs font-bold text-red-500 uppercase mb-2">UK Exclusive</p>
-                    <p class="text-lg font-bold mb-4 italic">Free Delivery on all trial orders this month.</p>
-                    <a href="https://testolink-eu.vercel.app/" class="text-[10px] text-red-400 uppercase tracking-widest hover:underline">Click here to claim</a>
+                <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 text-center">
+                    <p class="text-xs font-bold text-slate-500 mb-2 uppercase tracking-tighter">Reader Notice</p>
+                    <p class="text-sm font-bold mb-4 italic">Check current availability for UK shipping below.</p>
+                    <a href="https://testolink-eu.vercel.app/" class="text-xs text-blue-600 font-bold uppercase hover:underline">View Official Site</a>
                 </div>
             </div>
         </aside>
@@ -250,17 +233,17 @@
     </div>
 
     <!-- Final Footer -->
-    <footer class="bg-uk-blue py-16 text-white text-center mt-20">
+    <footer class="bg-white border-t border-gray-100 py-16 text-center mt-20">
         <div class="max-w-4xl mx-auto px-4">
-            <div class="text-2xl font-black italic tracking-tighter mb-8 uppercase">
-                DAILY<span class="text-red-500">HEALTH</span>REVIEW
+            <div class="text-xl font-black italic tracking-tighter mb-8 uppercase text-slate-300">
+                DAILYHEALTHREVIEW
             </div>
-            <div class="flex flex-wrap justify-center gap-8 text-[10px] font-bold uppercase tracking-widest text-blue-300">
+            <div class="flex flex-wrap justify-center gap-8 text-[10px] font-bold uppercase tracking-widest text-gray-400">
                 <a href="https://testolink-eu.vercel.app/">Privacy Policy</a>
                 <a href="https://testolink-eu.vercel.app/">Terms & Conditions</a>
                 <a href="https://testolink-eu.vercel.app/">Contact Editorial</a>
             </div>
-            <p class="mt-12 text-[10px] text-blue-400 uppercase tracking-widest">© 2026 Daily Health Review. London HQ. All Rights Reserved.</p>
+            <p class="mt-12 text-[10px] text-gray-300 uppercase tracking-widest">© 2026 Daily Health Review. London HQ.</p>
         </div>
     </footer>
 
